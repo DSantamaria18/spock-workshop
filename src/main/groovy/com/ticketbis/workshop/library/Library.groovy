@@ -1,9 +1,8 @@
 package com.ticketbis.workshop.library
 
-import java.sql.Time
-
 import static com.ticketbis.workshop.library.Book.Status.AVAILABLE
 import static com.ticketbis.workshop.library.Book.Status.UNAVAILABLE
+
 
 class Library {
 
@@ -30,4 +29,5 @@ class Library {
         book.dateCreated = timeService.getNow()
         book
     }
+
 }

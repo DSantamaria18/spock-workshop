@@ -10,6 +10,7 @@ import spock.lang.Specification
 import static com.ticketbis.workshop.library.Book.Status.AVAILABLE
 import static com.ticketbis.workshop.library.Book.Status.UNAVAILABLE
 
+
 /**
  * Second set of exercises for the Spock workshop. All you need
  * to do is write some feature methods to verify the behaviour of the methods

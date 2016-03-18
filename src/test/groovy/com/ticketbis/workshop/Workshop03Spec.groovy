@@ -47,6 +47,7 @@ class Workshop03Spec extends Specification {
         then: "the library should have all the books registered"
         4 * library.register(_ as Book)
     }
+
     /**
      * <p>TODO Write a feature method for {@link Library#setTime(Book)}
      * in order to check that when we set a time for a given book, the book creation
@@ -74,4 +75,5 @@ class Workshop03Spec extends Specification {
     private getBookList(URL booksResource) {
         new JsonSlurper().parse(booksResource).books
     }
+
 }

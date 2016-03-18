@@ -4,6 +4,7 @@ import spock.lang.Shared
 import spock.lang.Specification
 import spock.lang.Unroll
 
+
 /**
  * These are the first set of exercises for the Spock workshop. All you need
  * to do is write some feature methods to verify the behaviour of the methods
@@ -65,4 +66,5 @@ class Workshop01Spec extends Specification {
         base << [-1, 2, null]
         height << [3, 0, 4]
     }
+
 }
